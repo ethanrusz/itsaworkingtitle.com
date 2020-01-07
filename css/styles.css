@@ -1,0 +1,28 @@
+html, body {
+  margin: none;
+  padding: none;
+  border: none;
+  height: 100%;
+  width: 100%;
+  background-color: #212121;
+}
+
+body {
+  font-family: "Helvetica", "Arial", "Sans-Sarif";
+  display: block;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  background-image: url('../assets/Fiesta.png');
+  background-size: 25%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
