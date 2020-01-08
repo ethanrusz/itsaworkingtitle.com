@@ -33,7 +33,9 @@ body {
 .navcontainer {
   position: absolute;
   margin: 1em;
+  bottom: 0;
   width: auto;
+  opacity: .85;
 }
 
 .nav {
@@ -43,18 +45,24 @@ body {
 
 .nav a {
   float: left;
-  color: yellow;
+  color: white;
   text-align: center;
   padding: .75em 1em;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
   transition: all .2s ease-in-out;
+  background-color: #111;
 }
 
 .nav a:hover {
   background-color: #212121;
-  color: white;
+  color: yellow;
   transform: scale(1.1);
+}
+
+a.reg {
+  background-color: red;
+  font-weight: bold;
 }
 
 canvas {
