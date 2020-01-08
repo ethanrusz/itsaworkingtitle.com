@@ -13,12 +13,11 @@ body {
 
 .main {
   background-color: white;
-  width: 60%;
+  width: 80%;
   height: 100%;
   position: absolute;
-  margin-left: 20%;
-  margin-right: 20%;
-  /* opacity: .5; */
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .hero-image {
@@ -49,7 +48,7 @@ body {
   text-align: center;
   padding: .75em 1em;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1em;
   transition: all .2s ease-in-out;
   background-color: #212121;
 }
@@ -66,6 +65,7 @@ a.reg {
   font-weight: bold;
 }
 
+/* particle container */
 canvas {
   display: block;
   vertical-align: bottom;
@@ -84,15 +84,35 @@ canvas {
 
 /* mobile */
 @media only screen and (max-width: 600px) {
+  .navcontainer {
+    display: none;
+  }
 
+  .hero-image {
+    min-height: 200px;
+  }
 }
 
 /* itty bitty mobile */
 @media only screen and (max-width: 400px) {
+  .navcontainer {
+    display: none;
+  }
 
+  .hero-image {
+    min-height: 150px;
+  }
 }
 
 /* widescreen */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
+  .main {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 
+  .nav a {
+    font-size: 20px;
+  }
 }
