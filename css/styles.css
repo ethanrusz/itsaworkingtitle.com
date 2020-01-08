@@ -14,7 +14,7 @@ body {
 .main {
   background-color: white;
   width: 80%;
-  height: 100%;
+  height: auto;
   position: absolute;
   margin-left: 10%;
   margin-right: 10%;
@@ -27,6 +27,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+h1.hero-text {
+  color: white;
+  text-align: left;
+  font-size: 3em;
+  margin-bottom: 0em;
 }
 
 .navcontainer {
@@ -63,6 +70,25 @@ a.reg {
   background-color: purple;
   color: white;
   font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  /* background-color: orange; */
+  text-align: left;
+  margin: 0em 2em 0em;
+  padding: 2em 2em 2em;
+  border-bottom: solid 1px #212121;
+}
+
+footer.content {
+  align-self: flex-end;
+  color: #212121;
+  border: none;
 }
 
 /* particle container */
@@ -114,5 +140,9 @@ canvas {
 
   .nav a {
     font-size: 20px;
+  }
+
+  h1.hero-text {
+    font-size: 4em;
   }
 }
