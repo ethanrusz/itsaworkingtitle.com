@@ -9,20 +9,64 @@ html, body {
 
 body {
   font-family: "Helvetica", "Arial", "Sans-Sarif";
+}
+
+.main {
+  background-color: white;
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 20%;
+  /* opacity: .5; */
+}
+
+.hero-image {
+  background-image: url('../assets/vhs-hero.gif');
+  min-height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.navcontainer {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+canvas {
   display: block;
+  vertical-align: bottom;
 }
 
-canvas{
-  display:block;
-  vertical-align:bottom;
-}
-
-#particles-js{
+#particles-js {
   width: 100%;
   height: 100%;
   background-color: inherit;
-  background-image: url('../assets/Fiesta.png');
+  background-image: url('');
   background-size: 25%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  text-align: center;
 }
