@@ -35,12 +35,12 @@ body {
   margin: 1em;
   bottom: 0;
   width: auto;
-  opacity: .85;
 }
 
 .nav {
   overflow: hidden;
   background-color: #212121;
+  opacity: .85;
 }
 
 .nav a {
@@ -49,19 +49,20 @@ body {
   text-align: center;
   padding: .75em 1em;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   transition: all .2s ease-in-out;
-  background-color: #111;
+  background-color: #212121;
 }
 
 .nav a:hover {
-  background-color: #212121;
+  background-color: inherit;
   color: yellow;
   transform: scale(1.1);
 }
 
 a.reg {
-  background-color: red;
+  background-color: purple;
+  color: white;
   font-weight: bold;
 }
 
@@ -79,4 +80,19 @@ canvas {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   text-align: center;
+}
+
+/* mobile */
+@media only and screen (max-width: 600px) {
+
+}
+
+/* itty bitty mobile */
+@media only and screen (max-width: 400px) {
+
+}
+
+/* widescreen */
+@media only and screen (min-width: 1000px) {
+
 }
