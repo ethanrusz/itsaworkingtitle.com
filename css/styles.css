@@ -85,6 +85,13 @@ a.reg {
   border-bottom: solid 1px #212121;
 }
 
+.content > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
 footer.content {
   align-self: flex-end;
   color: #212121;
@@ -117,6 +124,13 @@ canvas {
 
   .hero-image {
     min-height: 200px;
+  }
+
+  .content > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 }
 
